@@ -105,10 +105,63 @@ orangered 0%,
 white 50%,
 orange 100%);
 }
-
-
-
-
+.button{
+  display:block;
+  margin: 5px;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px dimgray;
+  color:white;
+  font-weight: bold;
+  text-shadow: 1px 1px 0 rgba(0,0,0,0.4);
+  background-color:blue;
+  background: linear-gradient(0deg,
+  #00679A,
+  #0081B4 50%,
+  #63B3D3 50%,
+  #BFE5F2);
+}
+.transform{
+  font-size: 10px;
+  width: 100px;
+  text-align: center;
+  padding: 45px 0px;
+  margin: 20px;
+  background-color: mediumspringgreen;
+}
+.translateX{
+  transform: translateX(10px);
+}
+.translateY{
+  transform: translateY(10px);
+}
+.translate{
+  transform: translate(-20px, -5px);
+}
+.scale{
+  transform: scale(1.2);
+}
+.scaleY{
+  transform: scaleY(0.6);
+}
+.rotate{
+  transdorm: rotate(30deg);
+}
+.skewX{
+  transform: skewX(30deg);
+}
+.skewY{
+  transform: skewY(45deg);
+}
+.skew{
+  transform: skew(30deg,45deg);
+}
+.transform-origin{
+  transform-origin: 0% 0%;
+  transform: rotate(30deg);
+}
 
 
 
